@@ -1,0 +1,47 @@
+.fechaemision{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /*overflow-x: scroll;*/
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* estilo aplicado al vendedor cliente caja proveedor*/
+.estilosenditdad{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+/* estilos para la busqueda*/
+.busqueda{
+    justify-content:start;
+    flex-direction: column;
+    /*overflow-x: scroll;*/
+    align-items: flex-start;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    
+}
+/*estilos para los btn excel*/
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 5px 5px;
+    /*font-size: 16px;*/
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .success {
+    border-color: #1f6e43;
+    color: #1f6e43;
+  }
+  
+  .success:hover {
+    background-color: #1f6e43;
+    color: white;
+  }

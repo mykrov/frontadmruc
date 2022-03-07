@@ -1,0 +1,29 @@
+.none {
+    display:flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contentool {
+    display: none;
+}
+.contentitle {
+    display: block;
+    font-weight: bold;
+    font-size: 2rem;
+}
+@media screen and (max-width: 700px) {
+    .none2{
+        display: none;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .contentool {
+        display: block;
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+    .contentitle {
+        display: none;
+    }
+  }
